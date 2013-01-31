@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Twitter/Twitter.h>
 
 @interface ViewController : UIViewController
+{
+    UITextView *textView;
+    
+}
+
+@property(nonatomic, strong) IBOutlet UITextView *textView;
+
+-(IBAction)twittear:(id)sender;
 
 @end

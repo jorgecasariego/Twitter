@@ -18,6 +18,8 @@
 		2711894716BAAD3000EDAA91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2711894616BAAD3000EDAA91 /* Default-568h@2x.png */; };
 		2711894A16BAAD3000EDAA91 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2711894816BAAD3000EDAA91 /* MainStoryboard.storyboard */; };
 		2711894D16BAAD3000EDAA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711894C16BAAD3000EDAA91 /* ViewController.m */; };
+		2711895616BAADA900EDAA91 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711895516BAADA900EDAA91 /* Twitter.framework */; };
+		2711895816BAAF3000EDAA91 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2711895716BAAF3000EDAA91 /* twitter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		2711894916BAAD3000EDAA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2711894B16BAAD3000EDAA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2711894C16BAAD3000EDAA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2711895516BAADA900EDAA91 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		2711895716BAAF3000EDAA91 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../../../../../Desktop/twitter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2711895616BAADA900EDAA91 /* Twitter.framework in Frameworks */,
 				2711893116BAAD3000EDAA91 /* UIKit.framework in Frameworks */,
 				2711893316BAAD3000EDAA91 /* Foundation.framework in Frameworks */,
 				2711893516BAAD3000EDAA91 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +78,7 @@
 		2711892F16BAAD3000EDAA91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2711895516BAADA900EDAA91 /* Twitter.framework */,
 				2711893016BAAD3000EDAA91 /* UIKit.framework */,
 				2711893216BAAD3000EDAA91 /* Foundation.framework */,
 				2711893416BAAD3000EDAA91 /* CoreGraphics.framework */,
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				2711893F16BAAD3000EDAA91 /* AppDelegate.h */,
+				2711895716BAAF3000EDAA91 /* twitter.png */,
 				2711894016BAAD3000EDAA91 /* AppDelegate.m */,
 				2711894816BAAD3000EDAA91 /* MainStoryboard.storyboard */,
 				2711894B16BAAD3000EDAA91 /* ViewController.h */,
@@ -163,6 +170,7 @@
 				2711894516BAAD3000EDAA91 /* Default@2x.png in Resources */,
 				2711894716BAAD3000EDAA91 /* Default-568h@2x.png in Resources */,
 				2711894A16BAAD3000EDAA91 /* MainStoryboard.storyboard in Resources */,
+				2711895816BAAF3000EDAA91 /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
